@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarSize="34dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:padding="5dp"
+        android:textAlignment="textEnd"
+        android:textColor="#CE1616"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:padding="5dp"
+        android:rotation="1"
+        android:rotationY="1"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <include
+        layout="@layout/buttons_layout"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
